@@ -25,6 +25,26 @@ h2 {
   font-family: "Itim";
 }
 
+h4 {
+  font-family: "Itim";
+  text-align: center;
+  padding-top: 15%;
+  font-size: 1.1rem;
+  margin-right: 5%;
+}
+
+.billede1,
+billede2 {
+  display: none;
+}
+
+.klasse_knap {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background-color: #f7941d;
+  color: black;
+}
+
 .grid-1_1 {
   background-color: #f8f1e4;
   padding-top: 40px;
