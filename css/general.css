@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  z-index: 100;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+}
+.menu li {
+  margin-right: 50px;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.2rem;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 100;
+  cursor: pointer;
+  color: #567b5d;
+}
+.menu a:hover {
+  line-height: 50%;
+}
+.logo img {
+  width: 80px;
+}
+.logo {
+  margin-right: auto; /* for at flytte logoet helt til venstre*/
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #567b5d;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+  }
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+  nav.active .menu {
+    display: block;
+    position: absolute;
+    background-color: #d9e5e1;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+  nav.active .menu a {
+    font-size: 3cqw;
+  }
+  .icon-container {
+    margin-right: 10%;
+  }
+  .logo img {
+    width: 40px;
+  }
+}
