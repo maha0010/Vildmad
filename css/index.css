@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  padding: 10%;
+}
+body {
+  background-color: #fffcf2;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Rubik Scribble";
+  text-align: center;
+  color: #004b23;
+}
+
+h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #004b23;
+  font-family: "Itim";
+}
+
+.grid-1_1 {
+  background-color: #f8f1e4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo_forside {
+  padding: 80px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
