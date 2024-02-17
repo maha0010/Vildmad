@@ -1,0 +1,45 @@
+body {
+  background-color: #fffcf2;
+}
+.list_view_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.list_view {
+  font-size: 4rem;
+  font-family: "Rubik Scribble";
+  text-align: center;
+  color: #004b23;
+}
+h2 {
+  font-family: "Rubik Scribble";
+}
+.produkt_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.product_article {
+  position: relative;
+}
+
+.product_list_div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+  margin-left: 10%;
+
+  margin-top: 20px;
+}
+@media (min-width: 400px) {
+  .product_list_div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+
+    margin-top: 20px;
+  }
+}

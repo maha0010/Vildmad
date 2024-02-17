@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/css/produkt.css">
     <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/listview.css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Rubik+Scribble&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -38,47 +37,34 @@
         </nav>
     </header>
     <main>
-        <div class="grid-2_2">
-            <img class="hero_billede" src="/billeder/bellis_baggrund.webp" alt="">
-        </div>
-
-
+        <h1 class="list_view">List view</h1>
         <section>
-            <div class="single_product">
+
+            <div class="product_list_div">
+
 
             </div>
         </section>
 
     </main>
-
     <footer>
         <img src="footermonster.svg" alt="footermonster">
     </footer>
-
-    <script src="produkt.js"></script>
-
-    <template id="single_product_template">
-        <article class="single_product_article">
-
-            <h1 class="produkt_navn"></h1>
-            <img class="produkt_billede" src="" alt="">
-
-            <h3 class="description">Description: </h3>
-            <p></p>
-            <h3 class="forage_area">Where to forage: </h3>
-            <p></p>
-            <h2></h2>
-
-
-
-        </article>
-
-    </template>
-
-
-
-
-    </template>
+    <script src="listview.js"></script>
 </body>
+<template id="product_template">
+
+    <article class="product_article">
+
+        <div>
+            <h2></h2>
+            <p class="p">Area: <span></span></p>
+            <img class="list_view_img" src="" alt="">
+        </div>
+
+
+        <a class="produkt_link"></a>
+    </article>
+</template>
 
 </html>
