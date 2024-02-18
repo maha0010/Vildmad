@@ -5,7 +5,6 @@
 }
 img {
   max-width: 100%;
-  padding: 10%;
 }
 body {
   background-color: #fffcf2;
@@ -30,19 +29,30 @@ h4 {
   text-align: center;
   padding-top: 15%;
   font-size: 1.1rem;
-  margin-right: 5%;
+  margin: 5%;
 }
 
 .billede1,
-billede2 {
+.billede2 {
   display: none;
+}
+
+.billederforside {
+  padding: 10%;
 }
 
 .klasse_knap {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
-  background-color: #f7941d;
+  background-color: #fddfb6;
   color: black;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 .grid-1_1 {
@@ -55,8 +65,71 @@ billede2 {
   padding: 80px;
 }
 
+.grid-1_1_1 div {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-1_1_1 img {
+  margin-top: 1em;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
 @media (min-width: 800px) {
   h1 {
-    font-size: 5rem;
+    font-size: 7rem;
+    padding-top: 200px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+    font-weight: 100;
+    padding-top: 7%;
+  }
+  .order {
+    order: -2;
+  }
+  .logo_forside {
+    width: 550px;
+  }
+
+  .billederforside img {
+    display: block;
+  }
+
+  .grid-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin-top: 12%;
+  }
+
+  .billede1,
+  .billede2 {
+    display: block;
+  }
+
+  .grid-1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3%;
+  }
+
+  .grid-1_1_1 a {
+    text-align: center;
+  }
+
+  .grid-1_1_1 img {
+    padding: 5%;
+  }
+
+  .klasse_knap {
+    margin-right: 5%;
+    margin-left: 5%;
   }
 }
