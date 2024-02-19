@@ -53,12 +53,33 @@ header {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #567b5d;
+  background-color: #004b23;
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
 .burger {
   display: none;
+}
+
+/*footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1.8rem;
+  font-family: "Patrick Hand", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004b23;
+}
+
+.ikoner img {
+  width: 60px;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 800px) {
