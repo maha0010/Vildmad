@@ -1,0 +1,111 @@
+:root {
+  --background: #fffcf2;
+  --button: #fddfb6;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  margin-bottom: 10em;
+  margin-top: 2em;
+}
+
+.image_container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.image_container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Rubik Scribble";
+  white-space: nowrap;
+}
+
+h4 {
+  font-family: "Itim";
+  text-align: center;
+  margin: 0.5em 2em;
+}
+
+.knap {
+  background-color: var(--button);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  margin: 2em 20%;
+  cursor: pointer;
+}
+
+.knap a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-1_1_1 img {
+  border-radius: 10px;
+}
+
+/*------------------- MOBIL-SITE -------------------*/
+@media (max-width: 768px) {
+  .overlay_text {
+    font-size: 3.5em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
+  .knap {
+    font-size: 1em;
+    padding: 3%;
+  }
+
+  .grid-1_1_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-1_1_1 img {
+    margin-bottom: 1em;
+  }
+}
+
+/*------------------- WEB-SITE -------------------*/
+@media (min-width: 769px) {
+  .overlay_text {
+    font-size: 7em;
+  }
+
+  h4 {
+    white-space: pre-wrap;
+    font-size: 1.8em;
+  }
+
+  .knap {
+    font-size: 1.3em;
+    padding: 2%;
+    margin: 0 30%;
+  }
+
+  .grid-1_1_1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 5em;
+  }
+}
