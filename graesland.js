@@ -1,4 +1,4 @@
-fetch("https://tbszjlaortueltcpxswk.supabase.co/rest/v1/Product?Area=eq.Grassland", {
+fetch("https://tbszjlaortueltcpxswk.supabase.co/rest/v1/Product?Area=eq.Grassland?limit=3", {
   method: "GET",
   headers: {
     apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRic3pqbGFvcnR1ZWx0Y3B4c3drIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4MjAyMzEsImV4cCI6MjAyMzM5NjIzMX0.IWQgVSEG8f5kzVcyQ4aF89Nm_D_5FBdMZm8kVvxEGX4",
