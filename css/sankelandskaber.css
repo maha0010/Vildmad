@@ -81,6 +81,6 @@ p {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     margin: 2em 5em;
-    gap: 1.5em;
+    gap: 5%;
   }
 }
