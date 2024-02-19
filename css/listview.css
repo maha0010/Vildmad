@@ -1,11 +1,10 @@
 body {
   background-color: #fffcf2;
 }
+
 .list_view_img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 1px solid black;
+  width: 200px;
+  height: 200px;
 }
 
 .list_view {
@@ -15,7 +14,9 @@ body {
   color: #004b23;
 }
 h2 {
-  font-family: "Rubik Scribble";
+  font-family: "Itim";
+  font-size: 1.8rem;
+  color: #004b23;
 }
 .produkt_link {
   position: absolute;
@@ -32,18 +33,23 @@ h2 {
 
 .product_list_div {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
-  margin-left: 35%;
+  grid-template-columns: 1fr 1fr;
+  margin: 5%;
+  gap: 50px;
+  text-align: center;
 }
-@media (min-width: 600px) {
+
+.p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #004b23;
+}
+
+@media (min-width: 800px) {
   .product_list_div {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
-    margin-top: 20px;
-  }
-  .product_list_div {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
-    margin-left: 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 7%;
   }
 }
