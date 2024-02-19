@@ -12,10 +12,22 @@ fetch(`https://tbszjlaortueltcpxswk.supabase.co/rest/v1/Product?id=eq.${id}`, {
 
 function showData(data) {
   console.log(data);
-  //sitem.forEach(showItem);
 
-  const singleProduct = data[0];
+  //Fang template
+  const template = document.querySelector("#single_product_template").content;
+  //Lav kopi
+  const copy = template.cloneNode(true);
+  //Ændre indhold
+  copy.querySelector("h1").textContent = data.Productname;
+  copy.querySelector("p").textContent = data.Description;
+
+  copy.querySelector("img").src = data.Image;
+  //copy.querySelector(".produkt_link").href = `produkt.html?id=${data.id}`;
+
+  //Appende;
+  document.querySelector(".single_product").appendChild(copy);
 }
+
 //function showItem() {
 //console.log(data);
 //}
