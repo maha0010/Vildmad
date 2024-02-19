@@ -131,6 +131,10 @@ p {
   .logo img {
     width: 40px;
   }
+
+  .brodkrummesti {
+    font-size: 0.7rem;
+  }
 }
 .brodkrummesti {
   margin-left: 20px;
