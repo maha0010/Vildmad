@@ -42,8 +42,7 @@ h4 {
 
 .knap {
   background-color: var(--button);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-radius: 10px;
   text-align: center;
   margin: 2em 20%;
@@ -108,4 +107,19 @@ h4 {
     justify-items: center;
     margin-top: 5em;
   }
+}
+.brodkrummesti {
+  margin-left: 20px;
+  padding-top: 3%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+
+.brodkrummesti a {
+  text-decoration: none;
+  color: black;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+  line-height: 50%;
 }
