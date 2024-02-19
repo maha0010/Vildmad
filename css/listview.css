@@ -13,6 +13,7 @@ body {
   text-align: center;
   color: #004b23;
 }
+
 h2 {
   font-family: "Itim";
   font-size: 1.8rem;
@@ -25,10 +26,17 @@ h2 {
   width: 100%;
   height: 100%;
 }
+
 .product_article {
   position: relative;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+article:hover {
+  transform: scale(1.3);
+  border: 1px black solid;
+  border-radius: 10px;
 }
 
 .product_list_div {
