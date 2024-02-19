@@ -9,7 +9,6 @@ img {
 
 main {
   margin-bottom: 10em;
-  margin-top: 2em;
 }
 
 .image_container {
@@ -41,14 +40,18 @@ h4 {
 }
 
 .knap {
-  background-color: var(--button);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background-color: #fddfb6;
+  color: black;
+  padding: 3%;
   border-radius: 10px;
+  font-size: 1.5rem;
   text-align: center;
-  margin: 2em 20%;
-  cursor: pointer;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 3%;
 }
-
 .knap a {
   text-decoration: none;
   color: black;
@@ -107,19 +110,4 @@ h4 {
     justify-items: center;
     margin-top: 5em;
   }
-}
-.brodkrummesti {
-  margin-left: 20px;
-  padding-top: 3%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: 100;
-}
-
-.brodkrummesti a {
-  text-decoration: none;
-  color: black;
-}
-.breadcrumbs a:hover {
-  text-decoration: underline;
-  line-height: 50%;
 }
