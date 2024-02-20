@@ -24,6 +24,13 @@ img {
   height: 100%;
   height: calc(100vh - 300px);
 }
+.js_image {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
 
 .overlay_text {
   position: absolute;
@@ -116,6 +123,17 @@ p {
     padding-bottom: 2%;
     width: 800px;
     margin: 0 auto;
+  }
+  .product_p {
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  .product_p a {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-decoration: none;
   }
 
   .knap {

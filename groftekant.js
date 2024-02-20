@@ -24,6 +24,7 @@ function showItem(item) {
 
   copy.querySelector("img").src = item.Image;
   copy.querySelector("a").href = `produkt.html?id=${item.id}`;
+  copy.querySelector(".product_p").textContent = item.Productname;
 
   //Appende;
   document.querySelector(".grid-1_1_1").appendChild(copy);
