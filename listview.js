@@ -23,6 +23,7 @@ function showItem(item) {
   //Ændre indhold
   copy.querySelector("h2").textContent = item.Productname;
   copy.querySelector("p span").textContent = item.Area;
+
   copy.querySelector("img").src = item.Image;
   copy.querySelector(".produkt_link").href = `produkt.html?id=${item.id}`;
 
