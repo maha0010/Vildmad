@@ -72,10 +72,7 @@ p {
     width: 550px;
     margin: 0 auto;
   }
-  .produkt_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
   .produkt_tekst_grid {
     line-height: 1.6;
     width: 550px;
