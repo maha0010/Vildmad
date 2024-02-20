@@ -76,5 +76,7 @@ p {
   .produkt_tekst_grid {
     line-height: 1.6;
     width: 550px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
