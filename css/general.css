@@ -97,6 +97,9 @@ footer {
   padding-right: 50px;
   padding-left: 50px;
 }
+.margintop {
+  margin-top: 33px;
+}
 
 .ikoner {
   display: flex;
