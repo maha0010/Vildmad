@@ -44,23 +44,30 @@ h4 {
   margin: 0.5em 2em;
 }
 
+p {
+  font-family: "Itim";
+  text-align: center;
+  margin: 0.5em 2em;
+}
+
 .knap {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-decoration: none;
   background-color: #fddfb6;
-  color: black;
   padding: 3%;
   border-radius: 10px;
-  font-size: 1.5rem;
   text-align: center;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 20%;
+  margin-left: 20%;
   margin-top: 5%;
   margin-bottom: 15%;
 }
+
 .knap a {
   text-decoration: none;
   color: black;
+  font-size: 0.8em;
 }
 
 .grid-1_1_1 img {
@@ -73,11 +80,11 @@ h4 {
     font-size: 3.5em;
   }
 
-  .introduction {
+  h4 {
     font-size: 2rem;
   }
 
-  .tekst_introduction {
+  p {
     font-size: 1rem;
     font-weight: 100;
   }
@@ -104,11 +111,11 @@ h4 {
     font-size: 7em;
   }
 
-  .introduction {
+  h4 {
     font-size: 3rem;
   }
 
-  .tekst_introduction {
+  p {
     font-size: 1.5rem;
     font-weight: 100;
     padding-bottom: 2%;
@@ -116,8 +123,8 @@ h4 {
 
   .knap {
     font-size: 1.5rem;
-    padding: 2%;
-    margin: 0 30%;
+    padding: 1.5%;
+    margin: 0 35%;
   }
 
   .grid-1_1_1 {
