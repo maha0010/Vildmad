@@ -17,14 +17,14 @@ body {
   height: 300px;
   border-radius: 50%;
   border: solid black 1px;
-  margin-left: 5%;
-  margin-top: 1%;
+  margin: 0 auto;
 }
 .produkt_billede_wrapper {
+  display: flex;
   z-index: 1;
   position: relative;
   top: -150px;
-  left: 550px;
+  justify-content: center;
 }
 .produkt_h3 {
   margin-top: 7%;
@@ -61,4 +61,23 @@ h3 {
 p {
   text-align: left;
   margin-left: 5%;
+}
+
+@media (min-width: 769px) {
+  input {
+    display: block;
+    gap: 2px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    width: 550px;
+    margin: 0 auto;
+  }
+  .produkt_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .produkt_tekst_grid {
+    line-height: 1.6;
+    width: 550px;
+  }
 }
