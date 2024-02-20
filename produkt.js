@@ -18,6 +18,7 @@ function showData(item) {
   document.querySelector("p").textContent = item[0].Description;
   document.querySelector(".hero_billede").src = item[0].hero_image;
   document.querySelector(".forage_area_p").textContent = item[0].area_description;
+  document.querySelector(".season_p").textContent = item[0].Season;
 
   document.querySelector(".produkt_billede").src = item[0].Image;
   //copy.querySelector(".produkt_link").href = `produkt.html?id=${data.id}`;
