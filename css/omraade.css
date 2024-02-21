@@ -25,11 +25,14 @@ img {
   height: calc(100vh - 300px);
 }
 .js_image {
-  background-color: red;
-  border: 1px solid black;
+  border: 1px solid #c8954f;
   border-radius: 10px;
   height: 300px;
   width: 300px;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .overlay_text {
@@ -72,7 +75,7 @@ p {
 }
 
 .grid-1_1_1 img {
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 /*------------------- MOBIL-SITE -------------------*/
@@ -112,6 +115,13 @@ p {
   .overlay_text {
     font-size: 7em;
   }
+  .produkt_billede_wrapper {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    top: -150px;
+  }
 
   h4 {
     font-size: 3rem;
@@ -126,7 +136,7 @@ p {
   }
   .product_p {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: auto;
   }
   .product_p a {
