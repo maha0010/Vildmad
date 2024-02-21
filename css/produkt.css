@@ -22,6 +22,7 @@ body {
   z-index: 1;
   position: relative;
   justify-content: center;
+  top: -150px;
 }
 ´ .produkt_navn {
   font-size: 4rem;

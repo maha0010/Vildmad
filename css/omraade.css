@@ -115,6 +115,13 @@ p {
   .overlay_text {
     font-size: 7em;
   }
+  .produkt_billede_wrapper {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    justify-content: center;
+    top: -150px;
+  }
 
   h4 {
     font-size: 3rem;
