@@ -11,6 +11,8 @@ main {
 h4 {
   font-family: "Rubik Scribble";
   text-align: center;
+  font-size: 4rem;
+  color: #004b23;
 }
 p {
   font-family: "Itim";

@@ -21,7 +21,6 @@ body {
   display: flex;
   z-index: 1;
   position: relative;
-  top: -150px;
   justify-content: center;
 }
 ´ .produkt_navn {
