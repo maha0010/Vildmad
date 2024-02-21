@@ -30,8 +30,3 @@ function showItem(item) {
   //Appende;
   document.querySelector(".product_list_div").appendChild(copy);
 }
-
-//"https://tbszjlaortueltcpxswk.supabase.co/rest/v1/Product?Area=eq.Grassland"
-
-//"https://tbszjlaortueltcpxswk.supabase.co/rest/v1/Product?A";
-// Her vises mit datasæt, hvorefter der filtreres efter hvilke produkter der vokser i Grassland
