@@ -206,7 +206,7 @@ p {
   nav.active .menu {
     display: block;
     position: absolute;
-    background-color: #d9e5e1;
+    background-color: #fffcf2;
     top: 60px;
     left: 0;
     width: 100%;
